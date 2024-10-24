@@ -4,6 +4,7 @@ import MyNavbar from './components/Navbar'
 import MainContent from './components/MainContent'
 import Footer from './components/Footer'
 import Features from './components/Features'
+import Pricing from './components/Pricing'
 
 function App() {
 
@@ -12,7 +13,9 @@ function App() {
           <MyNavbar /> 
           <MainContent />
           <Features />
+          <Pricing />
           <Footer />
+         
       </div>  
   )
 }

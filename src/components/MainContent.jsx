@@ -1,6 +1,6 @@
 import React from 'react';
 
-const HeroSection = () => {
+const MainContent = () => {
   return (
     <section className="position-relative">
   <div className="vw-60">
@@ -19,4 +19,4 @@ const HeroSection = () => {
   );
 };
 
-export default HeroSection;
+export default MainContent;
