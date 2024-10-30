@@ -1,5 +1,6 @@
 import React from 'react';
 import Features from './Features';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -33,7 +34,8 @@ const Home = () => {
           
           <div className="m-4 ">
             <a href="#services" className="btn btn-secondary me-3 btn-lg">Our Services</a>
-            <a href="#contact" className="btn btn-outline-light btn-lg">Contact Us</a>
+            <Link className="btn btn-outline-light btn-lg" to="/contact">Contact Us!</Link><hr />
+    
           </div>
         </div>
       </div>
