@@ -6,16 +6,31 @@
     font-family: 'Arial', sans-serif;
 }
 
+.about-section img {
+    border-radius: 15px; /* Yuvarlak köşeler */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Hafif gölge */
+    margin-bottom: 30px; /* Resmin altına boşluk ekleme */
+    transition: transform 0.3s, box-shadow 0.3s; /* Animasyon geçişi */
+    margin-bottom: 50px;
+    
+  }
+  
+  .about-section img:hover {
+    transform: scale(1.05); /* Hover efekti ile büyütme */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Hover sırasında gölgeyi artırma */
+    
+  }
+
 .about-section h2 {
     font-size: 2.5rem;
-    color: #007bff;
+    color: rgb(74, 196, 74);
     margin-bottom: 1rem;
     animation: fadeInDown 0.8s ease-in-out;
 }
 
 .about-section h3 {
     font-size: 2rem;
-    color: #495057;
+    color: rgb(146, 66, 146);
     margin-bottom: 1.5rem;
     animation: fadeInRight 0.8s ease-in-out;
 }
@@ -24,7 +39,7 @@
     font-size: 1.25rem;
     margin-bottom: 2rem;
     line-height: 1.6;
-    color: #6c757d;
+    color: #284863;
     animation: fadeIn 1s ease-in;
 }
 

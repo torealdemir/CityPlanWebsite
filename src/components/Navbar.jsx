@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './Navbar.css'; // CSS dosyasını eklemeyi unutmayın
 
 const Navbar = () => {
     return (
       <div>
         <nav className="navbar navbar-expand-lg bg-light">
             <div className="container-fluid">
-                <Link className="navbar-brand fs-1 pl-2" to="/" style={{ fontFamily:'Rubik Mono One, sans-serif'}}>ProPlan</Link>
+                <Link className="navbar-brand" to="/">ProPlan</Link>
                 <button
                     className="navbar-toggler"
                     type="button"
@@ -18,29 +19,28 @@ const Navbar = () => {
                 >
                     <span className="navbar-toggler-icon"></span>
                 </button>
-                <div className="collapse navbar-collapse pl-4" id="navbarNav">
+                <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav ms-auto">
                         <li className="nav-item">
-                            <Link className="nav-link" to="/">Home</Link><hr />
+                            <Link className="nav-link" to="/">Home</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/about">About</Link><hr />
+                            <Link className="nav-link" to="/about">About</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/projects">Projects</Link><hr />
+                            <Link className="nav-link" to="/projects">Projects</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/pricing">Pricing</Link><hr />
+                            <Link className="nav-link" to="/pricing">Pricing</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/contact">Contact</Link><hr />
+                            <Link className="nav-link" to="/contact">Contact</Link>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-        
-        </div>
+      </div>
     );
 };
 

@@ -1,0 +1,55 @@
+/* Genel Kart Stili */
+.project-card {
+    border: none;
+    border-radius: 15px; /* Daha yuvarlak köşeler */
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+}
+
+/* Hover Etkisi */
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2); /* Hover sırasında daha belirgin gölge */
+}
+
+/* Resim Stili */
+.card-img-top {
+    height: 200px; /* Resim yüksekliği sabitlendi */
+    object-fit: cover; /* Resim oranı korunarak kaplanacak şekilde ayarlandı */
+    transition: transform 0.3s ease; /* Resim geçişi */
+}
+
+/* Resim Hover Efekti */
+.project-card:hover .card-img-top {
+    transform: scale(1.05); /* Hover'da büyüme efekti */
+}
+
+/* Başlık Stili */
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2c3e50; /* Başlık rengi değiştirildi */
+}
+
+/* Açıklama Stili */
+.card-text {
+    color: #7f8c8d; /* Açıklama rengi değiştirildi */
+    font-size: 1rem; /* Açıklama yazı boyutu */
+}
+
+/* Buton Stili */
+.btn-primary {
+    background-color: #3498db; /* Buton arka plan rengi */
+    border: none;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Geçiş efekti */
+    padding: 10px 20px; /* Buton içi boşluk */
+    border-radius: 25px; /* Buton kenar yuvarlama */
+    font-size: 1rem; /* Buton yazı boyutu */
+}
+
+/* Buton Hover Efekti */
+.btn-primary:hover {
+    background-color: #2980b9; /* Buton hover arka plan rengi */
+    transform: scale(1.05); /* Hover'da büyüme efekti */
+}
