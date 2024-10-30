@@ -5,7 +5,7 @@ import './Home.css'; // CSS dosyasını eklemeyi unutmayın
 
 const Home = () => {
   return (
-    <section className="home-section position-relative bg-dark text-light py-5">
+    <section className="home-section position-relative text-light py-5">
       <div className="container">
         <div className="row">
           <div className="col-lg-8 mx-auto text-center">
@@ -33,7 +33,7 @@ const Home = () => {
           
           <div className="m-4">
             <a href="#services" className="btn btn-secondary me-3 btn-lg">Our Services</a>
-            <Link className="btn btn-outline-light btn-lg" to="/contact">Contact Us!</Link>
+            <Link className="btn btn-outline-light btn-lg mt-3" to="/contact">Contact Us!</Link>
           </div>
         </div>
       </div>

@@ -1,5 +1,5 @@
 .home-section {
-    background-color: #1c1c1c;
+    background-color: #f8f9fa;
 }
 
 .home-section h2 {
@@ -94,7 +94,7 @@
     background: linear-gradient(45deg, #0072ff, #00c6ff);
 }
 
-/* Our Services Butonu */
+
 .home-section .btn-secondary {
     background: linear-gradient(45deg, #00c6ff, #0072ff);
     color: #ffffff;
@@ -112,7 +112,7 @@
     background: linear-gradient(45deg, #0072ff, #00c6ff);
 }
 
-/* Contact Us Butonu */
+
 .home-section .btn-outline-light {
     background: linear-gradient(45deg, #ff7e5f, #feb47b);
     color: #ffffff;
