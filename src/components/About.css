@@ -7,17 +7,17 @@
 }
 
 .about-section img {
-    border-radius: 15px; /* Yuvarlak köşeler */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Hafif gölge */
-    margin-bottom: 30px; /* Resmin altına boşluk ekleme */
-    transition: transform 0.3s, box-shadow 0.3s; /* Animasyon geçişi */
+    border-radius: 15px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px; 
+    transition: transform 0.3s, box-shadow 0.3s; 
     margin-bottom: 50px;
     
   }
   
   .about-section img:hover {
-    transform: scale(1.05); /* Hover efekti ile büyütme */
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Hover sırasında gölgeyi artırma */
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
     
   }
 
@@ -46,8 +46,8 @@
 .about-section ul, .about-section ol {
     font-size: 1.1rem;
     color: #495057;
-    padding-left: 0; /* Liste boşluklarını sıfırlıyoruz */
-    list-style-type: none; /* Varsayılan liste simgelerini kaldırıyoruz */
+    padding-left: 0; 
+    list-style-type: none;      
 }
 
 .about-section ul li, .about-section ol li {
