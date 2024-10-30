@@ -1,4 +1,6 @@
 import { useState } from 'react'
+import 'leaflet/dist/leaflet.css';
+  
 import './App.css'
 import Navbar from './components/Navbar'
 import Home from './components/Home'

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Map from './Map';
 
 const Contact = () => {
   const email = "info@yourdomain.com"
@@ -21,7 +22,12 @@ const Contact = () => {
           <h3 className="text-center">Or Just Mail Us!</h3>
           <a className='btn btn-primary me-3 btn-lg d-flex justify-content-center' href={`mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`}>Mail!</a>
         </div>
+        <div className="vw-20 vh-30 mt-3">
+        <Map />
+        </div>
+        
     </div>
+
    );
   }
 export default Contact;
