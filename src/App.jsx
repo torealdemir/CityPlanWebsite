@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import 'leaflet/dist/leaflet.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
+
   
 import './App.css'
 import Navbar from './components/Navbar'

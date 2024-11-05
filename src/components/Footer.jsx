@@ -31,13 +31,13 @@ const Footer = () => {
 
           <div className="col-md-3 mb-3 text-center">
             <h6 className="text-uppercase">Follow Us</h6>
-            <a href="https://twitter.com" className="text-white me-3">
+            <a href="https://twitter.com" className="text-white me-3" aria-label="Twitter">
               <i className="bi bi-twitter"></i>
             </a>
-            <a href="https://facebook.com" className="text-white me-3">
+            <a href="https://facebook.com" className="text-white me-3" aria-label="Facebook">
               <i className="bi bi-facebook"></i>
             </a>
-            <a href="https://linkedin.com" className="text-white">
+            <a href="https://linkedin.com" className="text-white" aria-label="LinkedIn">
               <i className="bi bi-linkedin"></i>
             </a>
           </div>
