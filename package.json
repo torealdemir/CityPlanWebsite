@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
 
-  "homepage": "https://github.com/torealdemir/CityPlanWebsite.git",
+  "homepage": "https://torealdemir.github.io/CityPlanWebsite/",
   "scripts": {
     "dev": "vite",
     "predeploy": "vite build",
