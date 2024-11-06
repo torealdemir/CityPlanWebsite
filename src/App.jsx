@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import 'leaflet/dist/leaflet.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
@@ -16,7 +16,9 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
 function App() {
-
+  useEffect(() => {
+    document.title = "ProPlan 🏢"; // Set the page title dynamically
+  }, []);
   return (
     <Router>
     <Navbar />
