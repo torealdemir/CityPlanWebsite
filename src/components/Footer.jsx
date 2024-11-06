@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container text-center text-md-start">
         <div className="row">
           <div className="col-md-4 mb-3">
-            <h5 className="text-uppercase fw-bold">PlanPro</h5>
+            <h5 className="text-uppercase fw-bold">Proplan</h5>
             <p>
               Dedicated to sustainable city planning and enhancing urban living for communities. We believe in building cities that thrive.
             </p>
@@ -25,7 +25,7 @@ const Footer = () => {
 
           <div className="col-md-3 mb-3">
             <h6 className="text-uppercase">Contact Us</h6>
-            <p>Email: info@planpro.com</p>
+            <p>Email: info@proplan.com</p>
             <p>Phone: +1 (555) 123-4567</p>
           </div>
 
@@ -44,7 +44,7 @@ const Footer = () => {
         </div>
 
         <div className="text-center mt-3">
-          <p className="mb-0">© {new Date().getFullYear()} PlanPro. All rights reserved.</p>
+          <p className="mb-0">© {new Date().getFullYear()} ProPlan. All rights reserved.</p>
         </div>
       </div>
     </footer>
