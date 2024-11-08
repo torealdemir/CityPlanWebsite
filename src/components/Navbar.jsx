@@ -1,13 +1,21 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Navbar.css'; // CSS dosyasını eklemeyi unutmayın
+import './Navbar.css';
+import logo from '../assets/logo.png';
 
 const Navbar = () => {
     return (
       <div>
         <nav className="navbar navbar-expand-lg bg-light">
             <div className="container-fluid">
-                <Link className="navbar-brand" to="/">ProPlan <i class="bi bi-buildings"></i></Link>
+                <Link className="navbar-brand" to="/">PlanPro
+                <img
+                    src={logo}
+                    alt="ProPlan Logo"
+                    className='img-fluid me-2'
+                    style={{ maxHeight: '50px' }} 
+                />
+                </Link>
                 <button
                     className="navbar-toggler"
                     type="button"
