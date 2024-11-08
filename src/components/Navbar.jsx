@@ -8,13 +8,14 @@ const Navbar = () => {
       <div>
         <nav className="navbar navbar-expand-lg bg-light">
             <div className="container-fluid">
-                <Link className="navbar-brand" to="/">PlanPro
+                <Link className="navbar-brand" to="/">
                 <img
                     src={logo}
                     alt="ProPlan Logo"
                     className='img-fluid me-2'
                     style={{ maxHeight: '50px' }} 
                 />
+                PlanPro
                 </Link>
                 <button
                     className="navbar-toggler"

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../assets/logo.png'
 
 const Footer = () => {
   return (
@@ -40,6 +41,13 @@ const Footer = () => {
             <a href="https://linkedin.com" className="text-white" aria-label="LinkedIn">
               <i className="bi bi-linkedin"></i>
             </a>
+            <div>
+              <img
+              src={logo}
+              alt='company logo'
+              className='img-fluid ml-3'
+               />
+            </div>
           </div>
         </div>
 
