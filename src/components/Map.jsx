@@ -26,6 +26,7 @@ const Map = () => {
         attribution='&copy; <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'
       />
       <Marker position={position}>
+        <Popup>Your location here</Popup>
       </Marker>
     </MapContainer>
   );
