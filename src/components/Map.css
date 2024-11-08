@@ -1,0 +1,4 @@
+.leaflet-container {
+    touch-action: none; /* Prevents conflicts with touch gestures */
+  }
+  
