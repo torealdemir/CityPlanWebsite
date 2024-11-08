@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './Projects.css'
 // Sample project data
 const projectsData = [
   {
@@ -59,7 +59,7 @@ const Projects = () => {
                   src={project.image} 
                   className="card-img-top" 
                   alt={project.title} 
-                  style={{ height: '200px', objectFit: 'cover' }} // Resmi belirli bir yükseklikte ayarlama
+                  style={{ height: '200px', objectFit: 'cover' }}
                 />
                 <div className="card-body d-flex flex-column">
                   <h5 className="card-title">{project.title}</h5>

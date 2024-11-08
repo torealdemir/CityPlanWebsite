@@ -1,55 +1,50 @@
-/* Genel Kart Stili */
 .project-card {
     border: none;
-    border-radius: 15px; /* Daha yuvarlak köşeler */
+    border-radius: 15px; 
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
 }
 
-/* Hover Etkisi */
 .project-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2); /* Hover sırasında daha belirgin gölge */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2); 
 }
 
-/* Resim Stili */
-.card-img-top {
-    height: 200px; /* Resim yüksekliği sabitlendi */
-    object-fit: cover; /* Resim oranı korunarak kaplanacak şekilde ayarlandı */
-    transition: transform 0.3s ease; /* Resim geçişi */
-}
-
-/* Resim Hover Efekti */
-.project-card:hover .card-img-top {
-    transform: scale(1.05); /* Hover'da büyüme efekti */
-}
-
-/* Başlık Stili */
 .card-title {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #2c3e50; /* Başlık rengi değiştirildi */
+    color: #2c3e50; 
 }
 
-/* Açıklama Stili */
 .card-text {
-    color: #7f8c8d; /* Açıklama rengi değiştirildi */
-    font-size: 1rem; /* Açıklama yazı boyutu */
+    color: #7f8c8d; 
+    font-size: 1rem; 
 }
 
 /* Buton Stili */
 .btn-primary {
-    background-color: #3498db; /* Buton arka plan rengi */
+    background-color: #3498db; 
     border: none;
-    transition: background-color 0.3s ease, transform 0.3s ease; /* Geçiş efekti */
-    padding: 10px 20px; /* Buton içi boşluk */
-    border-radius: 25px; /* Buton kenar yuvarlama */
-    font-size: 1rem; /* Buton yazı boyutu */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    padding: 10px 20px; 
+    border-radius: 25px; 
+    font-size: 1rem;
 }
 
-/* Buton Hover Efekti */
 .btn-primary:hover {
-    background-color: #2980b9; /* Buton hover arka plan rengi */
-    transform: scale(1.05); /* Hover'da büyüme efekti */
+    background-color: #2980b9; 
+    transform: scale(1.05); 
+}
+
+.card-img-top {
+    height: 200px; 
+    object-fit: cover; 
+    transition: transform 0.4s ease, box-shadow 0.4s ease; /* Smoother transition */
+}
+
+.card-img-top:hover {
+    transform: scale(1.1); /* Slightly larger scale for a subtle effect */
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4); /* Enhanced shadow for better focus */
+    z-index: 2; /* Bring the image to the front during hover */
 }
