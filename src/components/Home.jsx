@@ -15,7 +15,8 @@ const Home = () => {
               alt="City Planning" 
             />
             <h2 className="display-4">Building Sustainable Cities Together</h2>
-            <p className="lead mb-4">Join us in planning for a better future.Lorem ipsum odor amet, consectetuer adipiscing elit. Elementum pellentesque mollis curae rhoncus arcu. Tincidunt consequat nisi porttitor ridiculus massa aliquet, cursus laoreet cursus. Natoque fermentum elit vulputate elit vestibulum tincidunt lacinia tempor amet. Nam diam senectus lacinia malesuada congue dictum. Ante montes eu augue vehicula pellentesque ultrices. Vivamus aliquet mus tellus quis quis.
+            <p className="lead mb-2">Join us in planning for a better future.</p>
+            <p className='lead mb-4'>Lorem ipsum odor amet, consectetuer adipiscing elit. Elementum pellentesque mollis curae rhoncus arcu. Tincidunt consequat nisi porttitor ridiculus massa aliquet, cursus laoreet cursus. Natoque fermentum elit vulputate elit vestibulum tincidunt lacinia tempor amet. Nam diam senectus lacinia malesuada congue dictum. Ante montes eu augue vehicula pellentesque ultrices. Vivamus aliquet mus tellus quis quis.
 
 Fusce aptent nascetur sit vestibulum montes. Mi nostra pellentesque porttitor metus leo praesent sociosqu. Praesent volutpat venenatis phasellus morbi efficitur nulla. Ligula integer interdum donec; sed pellentesque senectus. Est habitasse mauris tellus erat eros, nibh ut egestas eget. In porta condimentum nam dis dapibus. Porta mi vel porttitor iaculis montes torquent tempus. Euismod dis taciti feugiat erat dolor parturient sollicitudin.
 
@@ -28,7 +29,7 @@ Nam ultrices nullam ultrices dapibus dis interdum ipsum pulvinar. Dignissim orna
           </div>
         </div>
       
-        <div className="mt-5 text-center">
+        <div className=" text-center">
           <h3 className="font-weight-bold">Why Choose Us?</h3>
           <p className="mb-4">We focus on innovative solutions that promote sustainability and enhance urban living.</p>
           
