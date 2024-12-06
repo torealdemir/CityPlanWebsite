@@ -17,7 +17,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   useEffect(() => {
-    document.title = "ProPlan 🏢"; // Set the page title dynamically
+    document.title = "PlanPro 🏢"; // Set the page title dynamically
   }, []);
   return (
     <Router>

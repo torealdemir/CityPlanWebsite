@@ -1,5 +1,5 @@
 .home-section {
-    background-color: #f8f9fa;
+    background-color: #487aac;
 }
 
 .home-section h2 {
@@ -9,7 +9,7 @@
 }
 
 .home-section .lead {
-    color: #adb5bd;
+    color: #ffffff;
     margin-bottom: 2rem;
     animation: fadeInUp 1s ease-in-out;
 }
