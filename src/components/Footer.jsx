@@ -1,8 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../assets/logo.png'
+import { useTranslation } from 'react-i18next'; 
 
 const Footer = () => {
+  const { t, i18n } = useTranslation();
+
+  const changeLanguage = (lang) => {
+    i18n.changeLanguage(lang);
+  };
+
+
   return (
     <footer className="bg-dark text-white py-4">
       <div className="container text-center text-md-start">
@@ -10,7 +18,7 @@ const Footer = () => {
           <div className="col-md-4 mb-3">
             <h5 className="text-uppercase fw-bold">PlanPro</h5>
             <p>
-              Dedicated to sustainable city planning and enhancing urban living for communities. We believe in building cities that thrive.
+              {t('footer.description')}
             </p>
           </div>
 
@@ -52,7 +60,7 @@ const Footer = () => {
         </div>
 
         <div className="text-center mt-3">
-          <p className="mb-0">© {new Date().getFullYear()} PlanPro. All rights reserved.</p>
+          <p className="mb-0">© {new Date().getFullYear()}{t('footer.privacy')}</p>
         </div>
       </div>
     </footer>
