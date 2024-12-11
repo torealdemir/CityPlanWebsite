@@ -3,7 +3,7 @@ import React from 'react';
 const Features = () => {
   return (
     <div className='d-flex align-items-center justify-content-center text-secondary py-5'>
-    <section id="features" className="text-center">
+    <section id="features" className="text-center text-light">
         <h3 className="mb-4">Our Features</h3>
         <ul className="list-unstyled">
             <li className="py-2">
