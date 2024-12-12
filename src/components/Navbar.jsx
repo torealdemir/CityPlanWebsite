@@ -18,11 +18,12 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg bg-light">
+    <nav className="navbar navbar-expand-lg bg-white shadow-sm py-3">
       <div className="container-fluid">
-        <Link className="navbar-brand" to="/">
-          <img src={logo} alt="PlanPro Logo" style={{ height: '40px' }} />
-          PlanPro
+        {/* Logo and Company Name */}
+        <Link className="navbar-brand d-flex align-items-center" to="/">
+          <img src={logo} alt="PlanPro Logo" style={{ height: '40px', marginRight: '10px' }} />
+          <span className="company-name">Plan<span style={{ color: '#007BFF' }}>Pro</span></span>
         </Link>
         <button
           className="navbar-toggler"
@@ -36,6 +37,7 @@ const Navbar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
+          {/* Navigation Links */}
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
               <Link className="nav-link" to="/">{t('navbar.home')}</Link>
@@ -53,9 +55,10 @@ const Navbar = () => {
               <Link className="nav-link" to="/contact">{t('navbar.contact')}</Link>
             </li>
           </ul>
+          {/* Language Dropdown */}
           <div className="ms-3 dropdown">
             <button
-              className="btn btn-light dropdown-toggle"
+              className="btn btn-outline-secondary dropdown-toggle"
               type="button"
               id="languageDropdown"
               data-bs-toggle="dropdown"
