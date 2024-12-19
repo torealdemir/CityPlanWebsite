@@ -23,7 +23,7 @@ const Navbar = () => {
         {/* Logo and Company Name */}
         <Link className="navbar-brand d-flex align-items-center" to="/">
           <img src={logo} alt="PlanPro Logo" style={{ height: '40px', marginRight: '10px' }} />
-          <span className="company-name">Plan<span style={{ color: '#007BFF' }}>Pro</span></span>
+          <span className="company-name">Plan<span style={{ color: '#60a5fa' }}>Pro</span></span>
         </Link>
         <button
           className="navbar-toggler"

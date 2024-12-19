@@ -24,7 +24,7 @@ const Home = () => {
           </div>
           <div className="col-lg-6">
             <img 
-              className="img-fluid rounded shadow mb-5" 
+              className="main-image img-fluid rounded shadow mb-5" 
               src="https://i.pinimg.com/736x/f1/e0/d3/f1e0d3240681d9d2fedec6540665bf33.jpg" 
               alt="City Planning" 
             />
