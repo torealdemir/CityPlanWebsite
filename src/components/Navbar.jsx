@@ -18,11 +18,11 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg bg-white shadow-sm py-3">
+    <nav className="navbar navbar-expand-lg bg-white shadow-sm ">
       <div className="container-fluid">
         {/* Logo and Company Name */}
         <Link className="navbar-brand d-flex align-items-center" to="/">
-          <img src={logo} alt="PlanPro Logo" style={{ height: '40px', marginRight: '10px' }} />
+          <img src={logo} className='company-logo img-fluid' alt="PlanPro Logo" style={{ height: '100px', marginRight: '10px' }} />
           <span className="company-name">Plan<span style={{ color: '#60a5fa' }}>Pro</span></span>
         </Link>
         <button
