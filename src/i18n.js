@@ -8,7 +8,7 @@ const resources = {
         home: "Ana Sayfa",
         about: "Hakkında",
         projects: "Projeler",
-        pricing: "Fiyatlandırma",
+        founder: "Kurucumuz",
         contact: "İletişim",
         language: "Dil"
       },
@@ -67,6 +67,9 @@ const resources = {
           }
         ]
       },
+      founder: {
+        
+      },
     },
   },
   en: {
@@ -75,7 +78,7 @@ const resources = {
         home: "Home",
         about: "About",
         projects: "Projects",
-        pricing: "Pricing",
+        founder: "Founder",
         contact: "Contact",
         language: "Language"
       },

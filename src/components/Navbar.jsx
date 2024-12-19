@@ -49,7 +49,7 @@ const Navbar = () => {
               <Link className="nav-link" to="/projects">{t('navbar.projects')}</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/pricing">{t('navbar.pricing')}</Link>
+              <Link className="nav-link" to="/founder">{t('navbar.founder')}</Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/contact">{t('navbar.contact')}</Link>

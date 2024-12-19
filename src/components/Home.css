@@ -129,3 +129,33 @@
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
     background: linear-gradient(45deg, #feb47b, #ff7e5f);
 }
+
+/* Footer card hover effect */
+.why-us-section .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .why-us-section .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .why-us-section .card-body h5 {
+    transition: color 0.3s ease;
+  }
+  
+  .why-us-section .card:hover .card-body h5 {
+    color: #28a745; /* Change to green on hover */
+  }
+  
+  /* Optional: Adding subtle animation to buttons */
+  .btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  img {
+    transform: 1.5;
+    
+  }
+  
