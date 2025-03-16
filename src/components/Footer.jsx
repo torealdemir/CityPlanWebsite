@@ -34,8 +34,8 @@ const Footer = () => {
 
           <div className="col-md-3 mb-3">
             <h6 className="text-uppercase">{t('footer.contactus')}</h6>
-            <p>Email: info@planpro.com</p>
-            <p>Phone: +1 (555) 123-4567</p>
+            <p>Email: info@planproplanlama.com</p>
+            <p>Phone: +90 543 940 05 94</p>
           </div>
 
           <div className="col-md-3 mb-3 text-center">
@@ -53,7 +53,7 @@ const Footer = () => {
               <img
               src={logo}
               alt='company logo'
-              className='img-fluid ml-3'
+              className='img-fluid ml-4'
                />
             </div>
           </div>

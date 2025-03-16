@@ -6,21 +6,20 @@ const About = () => {
         <section className="about-section py-5 bg-light text-dark">
             <div className="container">
                 <img className='img-fluid' src='https://images.unsplash.com/photo-1650627196344-9b8be77537c3?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' />
-                <h2 className="text-center mb-4 display-4">About Us</h2>
+                <h2 className="text-center mb-4 display-4">Hakkımızda</h2>
                 <p className="text-center mb-5 lead">
-                    At <strong>City Builders</strong>, we are dedicated to creating sustainable urban environments that enhance the quality of life for all residents. Our team of experts combines innovative design with community engagement to build cities that are both functional and beautiful.
+                PlanPro olarak, şehir ve bölge planlama ile coğrafi bilgi sistemleri alanında uzmanlaşmış ekibimizle, kaliteli, yenilikçi ve sürdürülebilir çözümler üretmek için çalışıyoruz. Sürdürülebilir, yaşanabilir ve akılcı bir yaklaşımla yalnızca bugünün değil, geleceğin kentlerini de planlıyoruz.
+                </p>
+                <h3 className="mb-3 h2">Vizyonumuz</h3>
+                <p className='mb-4'>Coğrafi bilgi sistemleri, ileri teknoloji ve katılımcı planlama modellerini benimseyerek, sürdürülebilir, yaşanabilir ve akıllı şehirler yaratmaktır. Yerel kalkınmayı destekleyen, çevre bilincine öncelik veren ve topluma değer katan bir yaklaşımla sektörde fark yaratmayı hedefliyoruz. PlanPro, tüm paydaşları için güvenilir, yenilikçi ve sorumlu bir çözüm ortağı olarak, geleceğin şehirlerini bugünden planlamaktadır.</p>
+
+                <h3 className="mb-3 h2">Misyonumuz</h3>
+                <p className="mb-4">
+                    PlanPro olarak, şehir ve bölge planlama ile coğrafi bilgi sistemleri alanında uzmanlaşmış bir ekip ile kaliteli, yenilikçi ve sürdürülebilir çözümler üretmek için çalışıyoruz. Çevresel dengeyi koruyan, toplumsal faydayı en üst düzeye çıkaran, ekonomik gelişimi destekleyen projeler geliştirerek şehirlerin ve bölgelerin potansiyelini ortaya çıkarıyoruz. Modern teknolojileri etkin bir şekilde kullanarak kamu kurumları, özel sektör ve yerel topluluklar için işlevsel ve estetik yaşam alanları tasarlıyoruz.
+                    Projelerimizde bilimsel veriye dayalı bir yaklaşımı benimseyerek, hem yerel hem de ulusal düzeyde ihtiyaçlara yönelik özgün çözümler sunuyoruz. İnsan odaklı bir anlayışla, katılımcı planlama süreçlerini teşvik ediyor, kentin ve kentlinin ihtiyaçlarına tam anlamıyla cevap veren projeler ortaya koyuyoruz. Şehirlerin akıllı dönüşüm süreçlerini destekleyen, coğrafi bilgi sistemlerini etkin kullanan, tüm paydaşlarımızla güçlü bir iletişim ve işbirliği içinde çalışmayı temel ilkemiz olarak görüyoruz.
+                    PlanPro, yalnızca bugünün değil, geleceğin ihtiyaçlarına da yanıt verecek şekilde sürdürülebilir kentleşme modelleri geliştirmeyi, yaşam kalitesini artırmayı ve bölgelerin ekonomik, sosyal ve kültürel anlamda kalkınmasına katkıda bulunmayı misyon edinmiştir.
                 </p>
                 
-                <h3 className="mb-3 h2">Our Mission</h3>
-                <p className="mb-4">
-                    Our mission is to lead the way in sustainable city planning and development. We aim to build cities that:
-                </p>
-
-                <ul className="list-unstyled mb-5">
-                    <li>🌿 Promote environmental sustainability</li>
-                    <li>🤝 Enhance public health and well-being</li>
-                    <li>🌍 Encourage community involvement and cohesion</li>
-                </ul>
 
                 <h3 className="mb-3 h2">Our Approach</h3>
                 <p className="mb-4">
@@ -34,20 +33,9 @@ const About = () => {
                     <li>🌐 <strong>Equity and Inclusion</strong>: Promoting equity and ensuring marginalized voices are heard.</li>
                 </ul>
 
-                <h3 className="mb-3 h2">Our Values</h3>
-                <ul className="list-unstyled mb-5">
-                    <li>🌿 <strong>Sustainability</strong>: Eco-friendly practices in all projects.</li>
-                    <li>🤝 <strong>Collaboration</strong>: Working closely with communities and stakeholders.</li>
-                    <li>🔍 <strong>Innovation</strong>: Embracing new technologies to improve urban living.</li>
-                </ul>
+                
 
-                <h3 className="mb-3 h2">Implementation Strategy</h3>
-                <ol className="mb-5">
-                    <li><strong>Research & Analysis</strong>: Understanding the unique needs of each community.</li>
-                    <li><strong>Design & Planning</strong>: Creating visionary plans balancing aesthetics and functionality.</li>
-                    <li><strong>Implementation</strong>: Collaborating with local authorities for seamless execution.</li>
-                    <li><strong>Community Engagement</strong>: Ensuring resident involvement in the planning process.</li>
-                </ol>
+               
 
                 <h3 className="mb-3 h2">Join Us</h3>
                 <p className="lead">

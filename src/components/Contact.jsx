@@ -13,10 +13,9 @@ const Contact = () => {
         
          <div className="text-center mb-4">
            <h3>Our Address</h3>
-           <p>123 Your Street,</p>
-           <p>Your City, Your Country</p>
+           <p>Kültür Mahallesi, Libya Caddesi No:64 Çankaya /ANKARA</p>
           <h3>Email Us</h3>
-          <p>info@yourdomain.com</p>
+          <p>info@planproplanlama.com</p>
          </div><hr />
         <div>
           <h3 className="text-center">Or Just Mail Us!</h3>

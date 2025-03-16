@@ -21,10 +21,10 @@ const resources = {
         followus: "BIZI TAKIP EDIN",
       },
       home: {
-        home: "Sürdürülebilir, Yaşanılabilir Ve Dirençli Şehirler Planlıyoruz",
+        home: "Sürdürülebilir, Yaşanılabilir Ve Akıllı Şehirler Planlıyoruz..",
         homecontent: "Sürdürülebilir ,kentin ihtiyaçlarını karşılayıcı gelişme ile günümüzden gelecek kuşaklara kentin doğal,tarihi yapısını ve kapasitesini koruyarak planlama ile gelecek nesillere aktarmak.",
         whyus: "Neden Biz?",
-        whyuscontent: "Sürdürülebilirliği teşvik eden ve kentsel yaşamı iyileştiren yenilikçi çözümler üzerine odaklanıyoruz.",
+        whyuscontent: "Coğrafi bilgi sistemleri, ileri teknoloji ve katılımcı planlama modellerini benimseyerek, sürdürülebilir, yaşanabilir ve akıllı şehirler yaratmaktır. Yerel kalkınmayı destekleyen, çevre bilincine öncelik veren ve topluma değer katan bir yaklaşımla sektörde fark yaratmayı hedefliyoruz. PlanPro, tüm paydaşları için güvenilir, yenilikçi ve sorumlu bir çözüm ortağı olarak, geleceğin şehirlerini bugünden planlamaktadır.",
         ecofriendly: "Çevre Dostu Altyapı",
         promote: "Toplu Taşıma Odaklı Çözümler",
         community: "Toplum Katılımı",
@@ -68,6 +68,9 @@ const resources = {
         ]
       },
       founder: {
+        founderTitle: "",
+        founderTitleContent: "",
+        founderNameandDescription: "",
         
       },
     },
