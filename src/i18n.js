@@ -73,6 +73,15 @@ const resources = {
         founderNameandDescription: "",
         
       },
+      about: {
+        aboutTitle: "Hakkımızda",
+        aboutHeader: "PlanPro olarak, şehir ve bölge planlama ile coğrafi bilgi sistemleri alanında uzmanlaşmış ekibimizle, kaliteli, yenilikçi ve sürdürülebilir çözümler üretmek için çalışıyoruz. Sürdürülebilir, yaşanabilir ve akılcı bir yaklaşımla yalnızca bugünün değil, geleceğin kentlerini de planlıyoruz.",
+        aboutMissionTitle: "Misyonumuz",
+        aboutMissionContent: "PlanPro olarak, şehir ve bölge planlama ile coğrafi bilgi sistemleri alanında uzmanlaşmış bir ekip ile kaliteli, yenilikçi ve sürdürülebilir çözümler üretmek için çalışıyoruz. Çevresel dengeyi koruyan, toplumsal faydayı en üst düzeye çıkaran, ekonomik gelişimi destekleyen projeler geliştirerek şehirlerin ve bölgelerin potansiyelini ortaya çıkarıyoruz. Modern teknolojileri etkin bir şekilde kullanarak kamu kurumları, özel sektör ve yerel topluluklar için işlevsel ve estetik yaşam alanları tasarlıyoruz. Projelerimizde bilimsel veriye dayalı bir yaklaşımı benimseyerek, hem yerel hem de ulusal düzeyde ihtiyaçlara yönelik özgün çözümler sunuyoruz. İnsan odaklı bir anlayışla, katılımcı planlama süreçlerini teşvik ediyor, kentin ve kentlinin ihtiyaçlarına tam anlamıyla cevap veren projeler ortaya koyuyoruz. Şehirlerin akıllı dönüşüm süreçlerini destekleyen, coğrafi bilgi sistemlerini etkin kullanan, tüm paydaşlarımızla güçlü bir iletişim ve işbirliği içinde çalışmayı temel ilkemiz olarak görüyoruz. PlanPro, yalnızca bugünün değil, geleceğin ihtiyaçlarına da yanıt verecek şekilde sürdürülebilir kentleşme modelleri geliştirmeyi, yaşam kalitesini artırmayı ve bölgelerin ekonomik, sosyal ve kültürel anlamda kalkınmasına katkıda bulunmayı misyon edinmiştir.",
+        aboutVisionTitle: "Vizyonumuz",
+        aboutVisionContent: "Coğrafi bilgi sistemleri, ileri teknoloji ve katılımcı planlama modellerini benimseyerek, sürdürülebilir, yaşanabilir ve akıllı şehirler yaratmaktır. Yerel kalkınmayı destekleyen, çevre bilincine öncelik veren ve topluma değer katan bir yaklaşımla sektörde fark yaratmayı hedefliyoruz. PlanPro, tüm paydaşları için güvenilir, yenilikçi ve sorumlu bir çözüm ortağı olarak, geleceğin şehirlerini bugünden planlamaktadır.",
+
+      }
     },
   },
   en: {
@@ -142,6 +151,15 @@ const resources = {
           }
         ]
       },
+      about: {
+        aboutTitle: "About Us",
+        aboutHeader: "As PlanPro, we work with our expert team specializing in urban and regional planning and geographic information systems to produce high-quality, innovative, and sustainable solutions. With a sustainable, livable, and rational approach, we plan not only the cities of today but also those of the future.",
+        aboutMissionTitle: "Our Mission",
+        aboutMissionContent: "As PlanPro, we work with a team of experts specializing in urban and regional planning and geographic information systems to develop high-quality, innovative, and sustainable solutions. By preserving environmental balance, maximizing social benefits, and supporting economic growth, we unlock the potential of cities and regions. Utilizing modern technologies effectively, we design functional and aesthetic living spaces for public institutions, the private sector, and local communities. Our projects are guided by a scientific, data-driven approach to provide unique solutions tailored to both local and national needs. With a human-centered perspective, we promote participatory planning processes and create projects that fully address the needs of cities and their residents. Supporting smart urban transformation and leveraging geographic information systems efficiently, we prioritize strong communication and collaboration with all stakeholders. Committed to sustainable urbanization, PlanPro aims to enhance quality of life while contributing to the economic, social, and cultural development of regions, ensuring cities are prepared for both today's and tomorrow’s challenges.",
+        aboutVisionTitle: "Our Vision",
+        aboutVisionContent: "Geographic information systems embrace advanced technology and participatory planning models to create sustainable, livable, and smart cities. With an approach that supports local development, prioritizes environmental awareness, and adds value to society, we aim to make a difference in the industry. As a reliable, innovative, and responsible solution partner for all stakeholders, PlanPro is planning the cities of the future today.",
+
+      }
     },
   },
 };

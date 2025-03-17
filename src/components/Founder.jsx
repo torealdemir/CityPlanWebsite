@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Founder = () => {
     return (
@@ -38,7 +39,7 @@ const Founder = () => {
                             </p>
                         </div>
                         <div className="card-footer text-center bg-light py-4">
-                            <button className="btn btn-success btn-lg shadow-sm">Learn More About Our Work</button>
+                             <Link className='btn btn-success btn-lg shadow-sm' to="/about">Learn More About Our Work</Link>
                         </div>
                     </div>
                 </div>

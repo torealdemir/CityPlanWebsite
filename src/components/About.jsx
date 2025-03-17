@@ -1,23 +1,27 @@
 import React from 'react';
 import './About.css'; // Import custom styles
+import { useTranslation } from 'react-i18next';
 
 const About = () => {
+    const { t, i18n } = useTranslation();
+    const changeLanguage = (lang) => {
+        i18n.changeLanguage(lang);
+    }
+
     return (
         <section className="about-section py-5 bg-light text-dark">
             <div className="container">
                 <img className='img-fluid' src='https://images.unsplash.com/photo-1650627196344-9b8be77537c3?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' />
-                <h2 className="text-center mb-4 display-4">Hakkımızda</h2>
+                <h2 className="text-center mb-4 display-4">{t('about.aboutTitle')}</h2>
                 <p className="text-center mb-5 lead">
-                PlanPro olarak, şehir ve bölge planlama ile coğrafi bilgi sistemleri alanında uzmanlaşmış ekibimizle, kaliteli, yenilikçi ve sürdürülebilir çözümler üretmek için çalışıyoruz. Sürdürülebilir, yaşanabilir ve akılcı bir yaklaşımla yalnızca bugünün değil, geleceğin kentlerini de planlıyoruz.
+                {t('about.aboutHeader')}
                 </p>
-                <h3 className="mb-3 h2">Vizyonumuz</h3>
-                <p className='mb-4'>Coğrafi bilgi sistemleri, ileri teknoloji ve katılımcı planlama modellerini benimseyerek, sürdürülebilir, yaşanabilir ve akıllı şehirler yaratmaktır. Yerel kalkınmayı destekleyen, çevre bilincine öncelik veren ve topluma değer katan bir yaklaşımla sektörde fark yaratmayı hedefliyoruz. PlanPro, tüm paydaşları için güvenilir, yenilikçi ve sorumlu bir çözüm ortağı olarak, geleceğin şehirlerini bugünden planlamaktadır.</p>
+                <h3 className="mb-3 h2">{t('about.aboutVisionTitle')}</h3>
+                <p className='mb-4'>{t('about.aboutVisionContent')}</p>
 
-                <h3 className="mb-3 h2">Misyonumuz</h3>
+                <h3 className="mb-3 h2">{t('about.aboutMissionTitle')}</h3>
                 <p className="mb-4">
-                    PlanPro olarak, şehir ve bölge planlama ile coğrafi bilgi sistemleri alanında uzmanlaşmış bir ekip ile kaliteli, yenilikçi ve sürdürülebilir çözümler üretmek için çalışıyoruz. Çevresel dengeyi koruyan, toplumsal faydayı en üst düzeye çıkaran, ekonomik gelişimi destekleyen projeler geliştirerek şehirlerin ve bölgelerin potansiyelini ortaya çıkarıyoruz. Modern teknolojileri etkin bir şekilde kullanarak kamu kurumları, özel sektör ve yerel topluluklar için işlevsel ve estetik yaşam alanları tasarlıyoruz.
-                    Projelerimizde bilimsel veriye dayalı bir yaklaşımı benimseyerek, hem yerel hem de ulusal düzeyde ihtiyaçlara yönelik özgün çözümler sunuyoruz. İnsan odaklı bir anlayışla, katılımcı planlama süreçlerini teşvik ediyor, kentin ve kentlinin ihtiyaçlarına tam anlamıyla cevap veren projeler ortaya koyuyoruz. Şehirlerin akıllı dönüşüm süreçlerini destekleyen, coğrafi bilgi sistemlerini etkin kullanan, tüm paydaşlarımızla güçlü bir iletişim ve işbirliği içinde çalışmayı temel ilkemiz olarak görüyoruz.
-                    PlanPro, yalnızca bugünün değil, geleceğin ihtiyaçlarına da yanıt verecek şekilde sürdürülebilir kentleşme modelleri geliştirmeyi, yaşam kalitesini artırmayı ve bölgelerin ekonomik, sosyal ve kültürel anlamda kalkınmasına katkıda bulunmayı misyon edinmiştir.
+                    {t('about.aboutMissionContent')}
                 </p>
                 
 
