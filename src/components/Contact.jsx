@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Map from './Map';
 
 const Contact = () => {
-  const email = "info@yourdomain.com"
+  const email = "info@yplanproplanlama.com"
   const contact = "Contact!"
   const subject = "dasda"
   const body = "Hello, I am writing for..."
